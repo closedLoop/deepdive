@@ -61,7 +61,8 @@ section](walkthrough.html), and to improve the quality of the extractions.
 
 ### <a name="braindump" href="#"> </a> Using BrainDump to generate automatic reports
 
-<div class="alert alert-danger">(This section is outdated and only accurate up to release 0.6.x.)</div> <!-- TODO rewrite -->
+<div class="alert alert-danger">(This section is outdated and only accurate up to release 0.6.x.)</div>
+<!-- TODO rewrite -->
 
 We start by setting up [BrainDump](https://github.com/zifeishan/braindump), the
 automatic report generator for DeepDive. BrainDump creates a set of reports
@@ -451,7 +452,7 @@ generate the feature, therefore we need to modify the `input` of the
 version of `deepdive.conf` is available at
 `$DEEPDIVE_HOME/examples/tutorial_example/step2-generic-features/deepdive.conf`):
 
-<script src="https://gist-it.appspot.com/github.com/HazyResearch/deepdive/blob/master/examples/tutorial_example/step2-generic-features/deepdive.conf?footer=minimal&slice=82:112"></script>
+<script src="https://gist-it.appspot.com/github.com/HazyResearch/deepdive/blob/master/examples/tutorial_example/step2-generic-features/deepdive.conf?footer=minimal&slice=72:102"></script>
 
 
 ### <a name="regularization" href="#"> </a> Mitigate overfitting with automatic regularization
@@ -474,7 +475,7 @@ To specify a set of regularization parameters among which to choose, and in
 general to pass arguments to the sampler, we can add the following line to
 `deepdive.conf`, in the `deepdive` section:
 
-<script src="https://gist-it.appspot.com/github.com/HazyResearch/deepdive/blob/master/examples/tutorial_example/step2-generic-features/deepdive.conf?footer=minimal&slice=173:178"></script>
+<script src="https://gist-it.appspot.com/github.com/HazyResearch/deepdive/blob/master/examples/tutorial_example/step2-generic-features/deepdive.conf?footer=minimal&slice=163:168"></script>
 
 For an explanation of all the parameters passed to the sampler, check the
 [sampler documentation](../sampler.html).
