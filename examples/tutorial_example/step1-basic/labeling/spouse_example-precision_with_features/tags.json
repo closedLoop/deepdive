@@ -5,7 +5,9 @@
  ],
  "by_key": {
   "APW_ENG_20070423.0071.LDC2009T13_219_16-APW_ENG_20070423.0071.LDC2009T13_219_0": {
-   "is_correct": false
+   "is_correct": false,
+   "test": true,
+   "note": true
   },
   "AFP_ENG_20081215.0748.LDC2009T13_424_30-AFP_ENG_20081215.0748.LDC2009T13_424_20": {
    "is_correct": true

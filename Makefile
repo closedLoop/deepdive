@@ -66,7 +66,7 @@ define STAGING_COMMANDS
 endef
 
 .PHONY: build
-build: scala-assembly-jar
+build:  scala-assembly-jar
 	$(STAGING_COMMANDS)
 	# record production environment settings
 	echo 'export CLASSPATH="$$DEEPDIVE_HOME"/lib/deepdive.jar' >$(STAGE_DIR)/env.sh

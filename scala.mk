@@ -28,7 +28,7 @@ SCALA_COVERAGE_DIR            = target/scala-2.10/scoverage-data
 SCALA_ASSEMBLY_JAR            = target/scala-2.10/*-assembly-*.jar
 
 # SBT settings
-SBT_OPTS ?= -Xmx4g -XX:MaxHeapSize=4g -XX:MaxPermSize=4g
+SBT_OPTS ?= -Xmx4g -XX:MaxHeapSize=4g -XX:MaxPermSize=4g -Djline.terminal=jline.UnixTerminal
 export SBT_OPTS
 
 .PHONY: scala-build

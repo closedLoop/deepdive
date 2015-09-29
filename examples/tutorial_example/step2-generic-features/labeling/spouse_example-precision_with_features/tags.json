@@ -281,13 +281,13 @@
    "is_correct": true
   },
   "APW_ENG_20080105.0146.LDC2009T13_18_25-APW_ENG_20080105.0146.LDC2009T13_18_0": {
-   "is_correct": true
+   "is_correct": false
   },
   "APW_ENG_20070206.1719.LDC2009T13_21_17-APW_ENG_20070206.1719.LDC2009T13_21_0": {
    "is_correct": true
   },
   "AFP_ENG_20070414.0183.LDC2009T13_435_10-AFP_ENG_20070414.0183.LDC2009T13_435_0": {
-   "is_correct": false
+   "is_correct": true
   },
   "95331@86_0-95331@86_4": {
    "is_correct": true
